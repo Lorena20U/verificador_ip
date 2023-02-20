@@ -1,3 +1,4 @@
+# Agregando interfaz gráfica ..
 import tkinter as tk
 
 class Verificador(tk.Frame):

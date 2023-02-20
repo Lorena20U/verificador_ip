@@ -40,8 +40,10 @@ def clasificar(oct):
     resultado = f'IP {tipo} de clase {clase}'
     return resultado
 
-
-ip = octetos_ip('192.169.0.0')
+print("Ingrese una direccion IP: ")
+ip = str(input())
+ip = octetos_ip(ip)
+#ip = octetos_ip('192.169.0.0')
 if ip[1] == 0:
     print('Direccion ip no valida. :(')
 else:
