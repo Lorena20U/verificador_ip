@@ -1,6 +1,6 @@
 # Requerimientos
 
-* **Tkinter** - *Para vista gráfica*
+* **pip install tkinter** - *Para vista gráfica*
 
 # Verificador IP
 
